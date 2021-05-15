@@ -1,7 +1,6 @@
 import $ from "jquery";
 import "./app2.css";
 const $tabBar = $(".app2 .tab-bar");
-console.log($tabBar);
 const $tabContent = $(".app2 .tab-content");
 const localKey = "app2.index";
 const index = localStorage.getItem(localKey || 0);
